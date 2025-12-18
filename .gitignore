@@ -28,3 +28,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar JARs em geral
+*.jar
+
+# EXCETO os JARs da pasta lib
+!lib/*.jar
